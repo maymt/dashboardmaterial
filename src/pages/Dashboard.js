@@ -1,87 +1,86 @@
 import React from 'react';
 import {Grid} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
-import Navbar from '../components/Navbar';
+import Navbar from "../components/Navbar";
 import 'fontsource-roboto';
 import '../assets/css/Dashboard.css';
-import TableMaterial from '../components/TableMaterial';
+import CardsHeader from '../components/CardsHeader';
 import Graphics from '../components/Graphics';
+import TableMaterial from '../components/TableMaterial';
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
-const useStyles = makeStyles(()=>({
-	root: {
+const useStyles= makeStyles(()=>({
+	root:{
 		flexGrow: 1
 	},
-	iconos: {
+	iconos:{
 		color: 'white'
 	},
-	container: {
-		alignItems: 'center',
-		paddingTop: '40px'
-	},
-	containerGrafica: {
-		marginTop: '40px',
+	container:{
+		paddingTop: '40px',
 		alignItems: 'center'
 	},
-	containerTabla: {
-		marginTop: '40px',
-		marginLeft: '40px'
+	containerGrafica:{
+		marginTop: '40px'
+	},
+	containerTabla:{
+		marginTop: '40px'
 	}
 }));
 
 const data = [
-    {
-      id:1,
-      video:
-        "Como Hacer un Split en React JS || React Split Pane || Tutorial en Español (2020)",
-      fecha: "6 de sep. 2020",
-      visualizaciones: 32,
-      imagen: require("../assets/img/logo.png"),
-    },
-    {
-      id:2,
-        video:
-          "Cómo Solucionar Error al Crear Applicación de React JS",
-        fecha: "5 de sep. 2020",
-        visualizaciones: 31,
-        imagen: require("../assets/img/logo-blanco.png"),
-      },
-      {
-      id:3,
-        video:
-          "Cómo Utilizar Forever en Node JS || Ejecutar Node JS en Segundo Plano || Background Node JS",
-        fecha: "4 de sep. 2020",
-        visualizaciones: 21,
-        imagen: require("../assets/img/camion-3.jpg"),
-      },
-  ];
+	{
+		nguia:	"123456",
+		cliente:	"Melón Hormigones",
+		fecha:	"01-12-2020 09:30",
+		ocobra:	"OB123456-001",
+		puntual:	"Sí",
+		estimada:	"00:45:00",
+		llegada:	"09:34:53",
+		salida:	"10:40:31",
+		real:	"01:06:34",
+		adicional:	"00:20:38",
+		cobro:	"0,5 UF"
+	},
+	{
+		nguia:	"123456",
+		cliente:	"Melón Hormigones",
+		fecha:	"01-12-2020 09:30",
+		ocobra:	"OB123456-001",
+		puntual:	"Sí",
+		estimada:	"00:45:00",
+		llegada:	"09:34:53",
+		salida:	"10:40:31",
+		real:	"01:06:34",
+		adicional:	"00:20:38",
+		cobro:	"0,5 UF"
+	}
+];
 
 function Dashboard(props) {
-    const classes= useStyles();
-    return (
-        <div className={classes.root}>
-			<Grid container spacing={3}>	
+	const classes= useStyles();
+	return (
+		<div className={classes.root}>
+			<Grid container spacing={3}>
 				<Grid item xs={12}>
-                    <Navbar/>
-                </Grid>
-            </Grid>
+					<Navbar/>
+				</Grid>
 
-			<Grid container spacing={3} className={classes.containerTabla}>
-				<Grid item xs={6} sm={6} md={6} lg={6} xl={6} className={classes.containerGrafica}>
-                	<Graphics />
-                </Grid>
-                <Grid item xs={6} sm={6} md={6} lg={6} xl={6} className={classes.containerGrafica}>
-                	<Graphics />
-                </Grid>
-			</Grid>
+				<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
+					<CardsHeader/>
+				</Grid>
+				<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
+					<CardsHeader / >
+				</Grid>
 
-			<Grid container spacing={3} className={classes.containerTabla}>
-				<Grid item xs={11}>
+				<Grid item xs={12} className={classes.containerTabla}>
 					<TableMaterial data={data}/>
 				</Grid>
 			</Grid>
-        </div>
-    );
+		</div>
+	);
 }
 
 export default Dashboard;

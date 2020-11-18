@@ -1,7 +1,7 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import {AppBar, Toolbar, IconButton, Typography} from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
+import Home from '@material-ui/icons/Home';
 import logo from '../assets/img/logo-blanco.png';
 
 const useStyles = makeStyles(()=>({
@@ -12,7 +12,7 @@ const useStyles = makeStyles(()=>({
 		marginRight: '16px'
 	},
 	title: {
-		flexGrow: 1	
+		flexGrow: 1
 	},
 	borderRadius: '50%'
 }));
@@ -24,7 +24,7 @@ function Navbar() {
 			<AppBar position = "static" style={{ background: '#006C90'}}>
 				<Toolbar>
 					<IconButton edge = "start" className = {"classes.menuButton"} color = "inherit">
-						<MenuIcon />
+						<Home />
 					</IconButton>
 					<Typography variant="h6" className={classes.title}>
 						MVP Sobrestadía

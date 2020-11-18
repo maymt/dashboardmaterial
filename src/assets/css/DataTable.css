@@ -1,0 +1,9 @@
+dataTables_wrapper {
+    font-family: montserrat;
+    font-size: 13px;
+    direction: rtl;
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+}
