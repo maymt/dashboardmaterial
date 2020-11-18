@@ -1,4 +1,13 @@
 body{
     margin: 0;
     padding: 0px 40px 40px 40px;
+},
+dataTables_wrapper {
+    font-family: montserrat;
+    font-size: 13px;
+    direction: rtl;
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
 }

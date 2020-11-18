@@ -5,11 +5,7 @@ import Navbar from "../components/Navbar";
 import 'fontsource-roboto';
 import '../assets/css/Dashboard.css';
 import CardsHeader from '../components/CardsHeader';
-import Graphics from '../components/Graphics';
-import TableMaterial from '../components/TableMaterial';
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+import DataTable from '../components/DataTable';
 
 const useStyles= makeStyles(()=>({
 	root:{
@@ -26,59 +22,29 @@ const useStyles= makeStyles(()=>({
 		marginTop: '40px'
 	},
 	containerTabla:{
-		marginTop: '40px'
+		marginTop: '30px'
 	}
 }));
-
-const data = [
-	{
-		nguia:	"123456",
-		cliente:	"Melón Hormigones",
-		fecha:	"01-12-2020 09:30",
-		ocobra:	"OB123456-001",
-		puntual:	"Sí",
-		estimada:	"00:45:00",
-		llegada:	"09:34:53",
-		salida:	"10:40:31",
-		real:	"01:06:34",
-		adicional:	"00:20:38",
-		cobro:	"0,5 UF"
-	},
-	{
-		nguia:	"123456",
-		cliente:	"Melón Hormigones",
-		fecha:	"01-12-2020 09:30",
-		ocobra:	"OB123456-001",
-		puntual:	"Sí",
-		estimada:	"00:45:00",
-		llegada:	"09:34:53",
-		salida:	"10:40:31",
-		real:	"01:06:34",
-		adicional:	"00:20:38",
-		cobro:	"0,5 UF"
-	}
-];
 
 function Dashboard(props) {
 	const classes= useStyles();
 	return (
 		<div className={classes.root}>
-			<Grid container spacing={3}>
-				<Grid item xs={12}>
-					<Navbar/>
-				</Grid>
+		<Grid container spacing={3}>
+		<Grid item xs={12}>
+		<Navbar/>
+		</Grid>
+		<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
+		<CardsHeader/>
+		</Grid>
+		<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
+		<CardsHeader / >
+		</Grid>
 
-				<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
-					<CardsHeader/>
-				</Grid>
-				<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
-					<CardsHeader / >
-				</Grid>
-
-				<Grid item xs={12} className={classes.containerTabla}>
-					<TableMaterial data={data}/>
-				</Grid>
-			</Grid>
+		<Grid item xs={12} className={classes.containerTabla}>
+		<DataTable/>
+		</Grid>
+		</Grid>
 		</div>
 	);
 }
