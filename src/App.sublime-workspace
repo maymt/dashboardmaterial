@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wave",
+				"wavfile"
+			],
+			[
+				"Codi",
+				"Codigo_Cliente"
+			],
+			[
+				"Co",
+				"Codigo_producto"
+			],
+			[
+				"C",
+				"Codigo_cliente"
+			],
+			[
+				"A",
+				"AND"
+			],
+			[
+				"SUM",
+				"SUMA"
+			],
+			[
+				"Codigo_",
+				"Codigo_cliente"
+			],
+			[
+				"Clie",
+				"CLIENTES"
+			],
+			[
+				"S",
+				"S"
+			],
+			[
+				"I",
+				"I"
+			],
+			[
+				"G",
+				"G"
+			],
+			[
+				"B",
+				"B"
+			],
+			[
+				"cod",
+				"cod_pro"
+			],
+			[
+				"ca",
+				"cantidad"
+			],
+			[
+				"wh",
+				"while\twhile ... end"
+			],
+			[
+				"co",
+				"cod_rut"
+			],
+			[
+				"Mon",
+				"Calc_Monto"
+			],
+			[
+				"CAl",
+				"Calculo"
+			],
+			[
+				"VEN",
+				"VENTA"
+			],
+			[
+				"Cal",
+				"Calc_Monto"
+			],
+			[
+				"VENT",
+				"VENTA_DETALLE"
+			],
+			[
+				"VENTA",
+				"VENTA_DETALLE"
+			],
+			[
+				"ID",
+				"ID_Venta"
+			],
+			[
+				"RUT",
+				"Rut_cliente"
+			],
+			[
+				"Rut",
+				"Rut_vende"
+			],
+			[
+				"EDA",
+				"EDADES"
+			],
+			[
+				"EDAD",
+				"Edad"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"edad",
+				"edades"
+			],
+			[
+				"gr",
+				"groupby2"
+			],
+			[
+				"prin",
+				"print"
+			],
+			[
+				"eda",
+				"edades_p1"
+			],
+			[
+				"ea",
+				"edades_p1"
+			],
+			[
+				"ed",
+				"edades_p1"
+			],
+			[
+				"t",
+				"timing_off"
+			],
+			[
+				"tim",
+				"timing_on"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"h4\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/maymt/my-app/src/Form.js",
+		"/Users/maymt/Desktop/mvp-melon/index.html",
+		"/Users/maymt/Desktop/main.py",
+		"/Users/maymt/Desktop/create-react-app/my-app/src/App.js",
+		"/Users/maymt/Desktop/api_intro/credenciales_aws",
+		"/Users/maymt/Desktop/api_intro/lambda_function.py",
+		"/Users/maymt/Desktop/api_intro/create_table",
+		"/Users/maymt/Desktop/api_intro/index.html",
+		"/Users/maymt/Desktop/api_intro/put_pedidos.sh",
+		"/Users/maymt/Desktop/api_intro/PEDIDOSRM.csv",
+		"/Users/maymt/Downloads/Clase Nº2",
+		"/Users/maymt/Downloads/Clase Nº1",
+		"/Users/maymt/Desktop/api_intro/put.sh",
+		"/Users/maymt/Desktop/api_intro/RM_2020.csv",
+		"/Users/maymt/Desktop/api_intro/RM_2019.csv",
+		"/Users/maymt/Downloads/create_db_table",
+		"/Users/maymt/Desktop/react/MiObraHomeComponent.js",
+		"/Users/maymt/Desktop/react/MiObraHomeComponent.stories.js",
+		"/Users/maymt/Desktop/segmentacion.csv",
+		"/Users/maymt/Desktop/segmentacion",
+		"/Users/maymt/Desktop/segmentacion_clientes.txt",
+		"/Users/maymt/Desktop/Taller_Melon/APUNTES_20-08",
+		"/Users/maymt/Desktop/Taller_Melon/APUNTES_21-08",
+		"/Users/maymt/Desktop/Taller_Melon/APUNTES_24-08",
+		"/Users/maymt/Desktop/segmentacion.html",
+		"/Users/maymt/Desktop/Taller_Melon/notas_profe",
+		"/Users/maymt/Documents/Dockers",
+		"/Users/maymt/uno.py",
+		"/Applications/StarUML.app/Contents/Resources/app/src/engine/license-manager.js",
+		"/Users/maymt/Desktop/docker_webservice.txt",
+		"/Users/maymt/Desktop/aux.md",
+		"/Users/maymt/Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.h",
+		"/Users/maymt/Downloads/may.sql",
+		"/Volumes/NO NAME/template/source/main.s",
+		"/Volumes/SUSANITA/sad/db.udp.cl",
+		"/Users/maymt/Downloads/MiProgramaProcesing.pde",
+		"/Users/maymt/Documents/Lab1_Digitales-2019/main.tex",
+		"/Users/maymt/Downloads/actividad_1",
+		"/Users/maymt/Downloads/actividad_2",
+		"/Users/maymt/Downloads/actividad_2 (1)",
+		"/Users/maymt/Downloads/Comandos_Tutorial",
+		"/Users/maymt/Documents/Comunicaciones/ALU.v",
+		"/Users/maymt/Downloads/ALU.v",
+		"/Users/maymt/Downloads/ALU_constr.xdc",
+		"/Users/maymt/Documents/Comunicaciones/Lab 3/errorGenerator.py",
+		"/Users/maymt/Documents/Comunicaciones/Lab 3/textFileGenerator.py",
+		"/Users/maymt/Documents/Comunicaciones/audio_maker.py",
+		"/Users/maymt/Documents/Comunicaciones/shine/main.c",
+		"/Users/maymt/Documents/Comunicaciones/shine/layer3.h",
+		"/Users/maymt/Documents/Comunicaciones/shine/layer3.c",
+		"/Users/maymt/Documents/lab2.py",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/actividad_14.txt",
+		"/Users/maymt/Documents/ThinkDSP/README.md",
+		"/Users/maymt/Downloads/Anaconda2-2018.12-MacOSX-x86_64.sh",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/query_3.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/query_2.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/query_1.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/table_2.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/table_1.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/create_index.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad14/table_3.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/query_3.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/function_query3.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/query_2.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/query_1.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/query_2-1.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/query_1-1.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/create_table.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/comillas.sh",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/actividad_13.txt",
+		"/Users/maymt/Documents/DDBB Gran Volumen/Clase Nº1",
+		"/Users/maymt/Desktop/ConsultasTienda.txt",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/clientes_ae",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/clientes_ad",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/clientes_ac",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/clientes_ab",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/clientes_aa",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/productos.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/create_tables.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/productos",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/a.txt",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/a",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/a.sh",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/clientes",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/a13.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/cantidades.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/cod_prod.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/cod_clientes.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/x1",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/b",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/ventas",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/separador.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/c.txt",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/b.txt",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/cod_clientes",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/cod_prod",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/rut",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/cantidades",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/ventas.py",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/actividad_13(1).txt",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad5/gb_file.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad5/pg_connection.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad5/gb_p2.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad5/gb_p1.rb",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/salida_00",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/productos_act13.py",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/pico.py",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/0bases_a13/limpiar3.py",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad13/millones_aa",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/tr_venta.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/tr_stock.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/update_monto.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/select_all.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/charge_tables.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/actividad_12.txt",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad12/trigger_01.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/actualiza_personas.sql",
+		"/Users/maymt/Downloads/ConsultasTienda.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/drop.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/create_tables.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/create_index.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/count_rows.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/charge_tables.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/Actividad Nº7",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad7/actividad_7",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad11/create_insert_edades.sql",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad11/table_edades",
+		"/Users/maymt/Desktop/BdDGranVolumen/Actividad10/actividad_12.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 31.0
+	},
+	"pinned_build_system": "",
+	"project": "App.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/api_intro/create_table"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
