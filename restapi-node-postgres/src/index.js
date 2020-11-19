@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
 
-//Middlewares
+// middlewares
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-//Routes
+// routes
 app.use(require('./routes/index'));
 
 app.listen(4000);
