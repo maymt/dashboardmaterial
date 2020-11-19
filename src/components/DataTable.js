@@ -56,6 +56,8 @@ function DataTable() {
     return { nguia,cliente,fecha,ocobra,puntual,estimada,llegada,salida,real,adicional, cobro};
   }
 
+
+
   const data = [
   	{
   		nguia:	"123456",
@@ -152,36 +154,109 @@ function DataTable() {
 
   return (
     <div>
-      <MaterialTable
-        columns={columnas}
-        data={data}
-        title='Pedidos'
-        actions={[
-          {
-            icon: 'visibilityIcon',
-            tooltip: 'Ver Detalle',
-            onClick:(event, rowData) =>alert('Nº Guía Despacho: '+rowData.nguia+'\n'+
-                      'Nº Pedido: '+rowData.pedido +'\n'+
-                      'Volumen: '+rowData.m3+' m3' +'\n'+
-                      'Hora Programada: '+rowData.solicitada +'\n'+
-                      'Hora Llegada a Obra: '+rowData.llegada +'\n'+
-                      'Cumplimiento Puntualidad: '+rowData.puntual +'\n'+
-                      'Hora Salida de Obra: '+rowData.salida +'\n'+
-                      'Estadía Designada: '+rowData.estimada +'\n'+
-                      'Estadía Real: '+rowData.real +'\n'+
-                      'Minutos Adicionales: '+rowData.dif +'\n'+
-                      'Tramos a Cobrar: '+rowData.tramos +'\n'+
-                      'Monto a Facturar: '+rowData.cobro)
-          }
-        ]}
-        localization={{
-          header: {
-            actions: 'Ver'
-          }
-        }}
-      />
+    <MaterialTable
+    title="Basic Filtering Preview"
+    columns={[
+      { title: 'Name', field: 'name' },
+      { title: 'Surname', field: 'surname' },
+      { title: 'Birth Year', field: 'birthYear', type: 'numeric' },
+      {
+        title: 'Birth Place',
+        field: 'birthCity',
+        lookup: { 34: 'İstanbul', 63: 'Şanlıurfa' },
+      },
+    ]}
+    data={[
+      { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+      { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+    ]}
+    options={{
+      filtering: true
+    }}
+    />
     </div>
   );
 }
 
 export default DataTable;
+// <MaterialTable
+//   columns={columnas}
+//   data={data}
+//   title='Pedidos'
+//   actions={[
+//     {
+//       icon: 'visibilityIcon',
+//       tooltip: 'Ver Detalle',
+//       onClick:(event, rowData) =>alert(
+//                 'Nº Guía Despacho: '+rowData.nguia+'\n'+
+//                 'Nº Pedido: '+rowData.pedido +'\n'+
+//                 'Volumen: '+rowData.m3+' m3.\n'+
+//                 'Hora Programada: '+rowData.solicitada +'\n'+
+//                 'Hora Llegada a Obra: '+rowData.llegada +'\n'+
+//                 'Cumplimiento Puntualidad: '+rowData.puntual +'\n'+
+//                 'Hora Salida de Obra: '+rowData.salida +'\n'+
+//                 'Estadía Designada: '+rowData.estimada +'\n'+
+//                 'Estadía Real: '+rowData.real +'\n'+
+//                 'Minutos Adicionales: '+rowData.dif +'\n'+
+//                 'Tramos a Cobrar: '+rowData.tramos +'\n'+
+//                 'Monto a Facturar: '+rowData.cobro)
+//     }
+//   ]}
+//   localization={{
+//     header: {
+//       actions: 'Ver'
+//     }
+//   }}
+// />
+
+
+//
+//
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'nguia'
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'pedido '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'm3'
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'solicitada'
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'llegada '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'puntual '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'salida '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'estimada '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'real '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'dif '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'tramos '
+// // },
+// // {
+//   // title: 'Guía Despacho',
+//   // field: 'cobro'
+// // }

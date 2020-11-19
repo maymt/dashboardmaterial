@@ -6,6 +6,7 @@ import 'fontsource-roboto';
 import '../assets/css/Dashboard.css';
 import CardsHeader from '../components/CardsHeader';
 import DataTable from '../components/DataTable';
+import Filters from '../components/Filters';
 
 const useStyles= makeStyles(()=>({
 	root:{
@@ -34,12 +35,13 @@ function Dashboard(props) {
 		<Grid item xs={12}>
 		<Navbar/>
 		</Grid>
-		<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
+		<Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
 		<CardsHeader/>
 		</Grid>
-		<Grid item xs={11} sm={6} md={6} lg={6} xl={6}>
+		<Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
 		<CardsHeader / >
 		</Grid>
+
 
 		<Grid item xs={12} className={classes.containerTabla}>
 		<DataTable/>
