@@ -21,7 +21,7 @@ function DataTable() {
 	}, [])
 
 	const columnas = [
-		{ title: 'segmento', field: 'segmento' },
+		//{ title: 'segmento', field: 'segmento' },
 		{ title: 'cliente', field: 'cliente' },
 		{ title: 'razon_social', field: 'razon_social' },
 		{ title: 'guia_despacho', field: 'guia_despacho' },
@@ -45,7 +45,7 @@ function DataTable() {
 		// { title: 'hora_fin_de_carga', field: 'hora_fin_de_carga' },
 		// { title: 'hora_salida_de_planta', field: 'hora_salida_de_planta' },
 		{ title: 'hora_llegada_a_obra', field: 'hora_llegada_a_obra' },
-		{ title: 'puntualidad', field: 'puntualidad' },
+		{ title: 'puntualidad', field: 'puntualidad', lookup: { true: 'Si', false: 'No' } },
 		{ title: 'estimada', field: 'estimada' },
 		//{ title: 'hora_inicio_descarga', field: 'hora_inicio_descarga' },
 		{ title: 'hora_vuelta_a_planta', field: 'hora_vuelta_a_planta' },
