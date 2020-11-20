@@ -5,58 +5,21 @@ const pool = new Pool({
     host: 'localhost',
     user: 'postgres',
     password: '',
-    database: 'firstapi',
+    database: 'mvp_db',
     port: '5432'
 });
 
-const getUsers = async (req, res) => {
-    const response = await pool.query('SELECT * FROM users');
+const getPedidos = async (req, res) => {
+    const response = await pool.query('SELECT * FROM pedidos');
     res.status(200).json(response.rows);
 };
 
-const getUserById = async (req, res) => {
-    const response = await pool.query('SELECT * FROM users WHERE id = $1', [req.params.id]);
+const getPedidoByObra = async (req, res) => {
+    const response = await pool.query('SELECT * FROM pedidos WHERE obra_oc = $1', [req.params.obra_oc]);
     res.json(response.rows)
 };
 
-const createUser = async (req, res) => {
-    const { name, email } = req.body;
-
-    const response = await pool.query('INSERT INTO users (name, email) VALUES ($1, $2)', [name, email]);
-    console.log(response);
-    res.json({
-        message: 'User Added Succesfully',
-        body: {
-            user: {name, email}
-        }
-    })
-};
-
-const deleteUser = async (req, res) => {
-    const response = await pool.query('DELETE FROM users WHERE id = $1', [req.params.id]);
-
-    console.log(response);
-    res.json({message: `User ${req.params.id} Deleted Succesfully`})
-};
-
-const updateUser = async (req, res) => {
-    const id = req.params.id;
-    const { name, email } = req.body;
-
-    const response = await pool.query('UPDATE users SET name = $1, email = $2 WHERE id = $3', [name, email, id]);
-    console.log(response);
-    res.json({
-        message: 'User Updated Succesfully',
-        body: {
-            user: {name, email}
-        }
-    })
-};
-
 module.exports = {
-    getUsers,
-    getUserById,
-    createUser,
-    deleteUser,
-    updateUser
+    getPedidos,
+    getPedidoByObra
 }

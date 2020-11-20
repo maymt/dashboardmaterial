@@ -35,13 +35,6 @@ function Dashboard(props) {
 		<Grid item xs={12}>
 		<Navbar/>
 		</Grid>
-		<Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-		<CardsHeader/>
-		</Grid>
-		<Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-		<CardsHeader / >
-		</Grid>
-
 
 		<Grid item xs={12} className={classes.containerTabla}>
 		<DataTable/>
