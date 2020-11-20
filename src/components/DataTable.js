@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import MaterialTable from 'material-table';
 import VisibilityIcon from '@material-ui/icons/Visibility';
-
+import axios from 'axios';
 
 function DataTable() {
+
+	const [data, setData] = useState([])
+
+	const peticionGet = async() =>{
+
+	}
+
   const columnas = [
     {
       title: 'Guía Despacho',
