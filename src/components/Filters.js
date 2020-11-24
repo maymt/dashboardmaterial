@@ -17,10 +17,11 @@ export default function Filters() {
   const classes = useStyles();
   return (
     <form className={classes.root} noValidate>
-      <Grid>
+      <Grid xs = {12}>
+      <Grid xs = {12}>
       <Autocomplete
         id="size-small-standard"
-        size="small"
+        size="medium"
         options={top100Films}
         getOptionLabel={(option) => option.obra}
         defaultValue={top100Films[1]}
@@ -28,28 +29,8 @@ export default function Filters() {
         <TextField {...params} variant="standard" label="Obra" placeholder="OBxxxxxx" />
         )}
       />
-      <Autocomplete
-        id="size-small-standard"
-        size="small"
-        options={top100Films}
-        getOptionLabel={(option) => option.rut}
-        defaultValue={top100Films[1]}
-        renderInput={(params) => (
-        <TextField {...params} variant="standard" label="Razón Social" placeholder="xxxxxxxx-x" />
-        )}
-      />
-      <Autocomplete
-        id="size-small-standard"
-        size="small"
-        options={top100Films}
-        getOptionLabel={(option) => option.nombre}
-        defaultValue={top100Films[1]}
-        renderInput={(params) => (
-        <TextField {...params} variant="standard" label="Nombre Razón Social" placeholder="Inmob..." />
-        )}
-      />
       </Grid>
-      <Grid>
+      <Grid xs = {12}>
         <TextField
           id="desde-datetime"
           label="Desde: "
@@ -70,6 +51,7 @@ export default function Filters() {
             shrink: true,
           }}
         />
+        </Grid>
       </Grid>
     </form>
   );

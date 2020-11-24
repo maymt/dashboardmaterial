@@ -36,6 +36,10 @@ function Dashboard(props) {
 		<Navbar/>
 		</Grid>
 
+		<Grid item xs={12}>
+		<Filters/>
+		</Grid>
+
 		<Grid item xs={12} className={classes.containerTabla}>
 		<DataTable/>
 		</Grid>

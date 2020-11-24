@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import MaterialTable from 'material-table';
-import VisibilityIcon from '@material-ui/icons/Visibility';
 import axios from 'axios';
+import 'fontsource-roboto';
 
 const baseUrl = "http://localhost:4000/pedidos"
 
@@ -44,15 +44,15 @@ function DataTable() {
 		// { title: 'hora_de_carga', field: 'hora_de_carga' },
 		// { title: 'hora_fin_de_carga', field: 'hora_fin_de_carga' },
 		// { title: 'hora_salida_de_planta', field: 'hora_salida_de_planta' },
-		{ title: 'Llegada a Obra', field: 'hora_llegada_a_obra' },
+		{ title: 'Llegada Obra', field: 'hora_llegada_a_obra' },
 		{ title: '¿Entrega Puntual?', field: 'puntualidad', lookup: { true: 'Si', false: 'No' } },
 		{ title: 'Estadía Estimada', field: 'estimada' },
 		//{ title: 'hora_inicio_descarga', field: 'hora_inicio_descarga' },
-		{ title: 'Salida de Obra', field: 'hora_vuelta_a_planta' },
+		{ title: 'Salida Obra', field: 'hora_vuelta_a_planta' },
 		{ title: 'Estadía Real', field: 'real' },
 		{ title: 'Estadía Adicional', field: 'adicionales' },
 		//{ title: 'hora_llegada_a_planta', field: 'hora_llegada_a_planta' },
-		{ title: 'Tramos de Cobro', field: 'tramos' },
+		{ title: 'Tramos Cobro', field: 'tramos' },
 		{ title: 'Monto (UF)', field: 'monto' }
 	]
 
