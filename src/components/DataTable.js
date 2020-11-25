@@ -3,7 +3,7 @@ import MaterialTable from 'material-table';
 import axios from 'axios';
 import 'fontsource-roboto';
 
-const baseUrl = "http://localhost:4000/pedidos"
+const baseUrl = "postgres://mpdlwiymksjbbo:026c558a53f723dd0c07a2e4c2265c33f0574b9f66b0d53256e18cdcdb729c33@ec2-52-206-15-227.compute-1.amazonaws.com:5432/daokhr6d468c47"
 
 function DataTable() {
 
