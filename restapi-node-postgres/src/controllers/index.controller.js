@@ -2,10 +2,10 @@ const { response } = require('express');
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    host: 'localhost',
-    user: 'postgres',
-    password: '',
-    database: 'mvp_db',
+    host: 'ec2-52-206-15-227.compute-1.amazonaws.com',
+    user: 'mpdlwiymksjbbo',
+    password: '026c558a53f723dd0c07a2e4c2265c33f0574b9f66b0d53256e18cdcdb729c33',
+    database: 'daokhr6d468c47',
     port: '5432'
 });
 
